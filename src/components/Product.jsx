@@ -14,9 +14,9 @@ const Product = () => {
         <div className='h-40 flex justify-center items-center font-medium'>
             <h1 className='text-4xl'>Our Products</h1>
         </div>
-        <div className='grid grid-cols-4 pl-40 pr-40 pb-10'>
+        <div className='grid grid-cols-2 md:grid-cols-4 pl-4 md:pl-40 pr-4 md:pr-40 pb-10'>
             <div className='h-60 flex flex-col justify-center items-center p-4'>
-                <img className='w-80' src={queenPanel} alt="queen panel bed" />
+                <img className='w-96' src={queenPanel} alt="queen panel bed" />
                 <p className='text-xl font-medium pt-4'>Queen Panel Bed</p>
                 <span className='text-[#f09d51]'>$10.99</span>
             </div>
